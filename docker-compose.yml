@@ -8,9 +8,9 @@ services:
     ports:
       - 8080:80
     environment:
-      WORDPRESS_DB_HOST: mysql-test-dani-ish2.cywvrc0tty0w.us-east-1.rds.amazonaws.com
+      WORDPRESS_DB_HOST: mysql-dani-try-2.cywvrc0tty0w.us-east-1.rds.amazonaws.com 
       WORDPRESS_DB_USER: admin
-      WORDPRESS_DB_PASSWORD: 1234567890
+      WORDPRESS_DB_PASSWOR: 1234554321
       WORDPRESS_DB_NAME: wordpress
     volumes:
       - wordpress:/var/www/html
